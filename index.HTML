@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>感谢妈妈</title>
+	<style>
+		body {
+			background-color: #f9e5d6;
+			font-family: Arial, sans-serif;
+			text-align: center;
+			animation: bgAnimation 10s infinite;
+			/* 添加背景动画效果 */
+		}
+
+		@keyframes bgAnimation {
+			0% {
+				background-color: #f9e5d6;
+			}
+			25% {
+				background-color: #f3d1ba;
+			}
+			50% {
+				background-color: #e8b89d;
+			}
+			75% {
+				background-color: #dc9e80;
+			}
+			100% {
+				background-color: #d38563;
+			}
+		}
+
+		h1 {
+			color: #d94a38;
+			font-size: 3em;
+			margin-top: 50px;
+			animation: heartbeat 1s infinite;
+			/* 添加心跳动画效果 */
+		}
+
+		@keyframes heartbeat {
+			0% {
+				transform: scale(1);
+			}
+			50% {
+				transform: scale(1.2);
+			}
+			100% {
+				transform: scale(1);
+			}
+		}
+
+		p {
+			font-size: 1.5em;
+			color: #555;
+			margin: 20px auto;
+			max-width: 600px;
+			line-height: 1.5;
+			text-align: center;
+			animation: slideInFromBottom 1s ease-out;
+			/* 添加从底部滑入的动画效果 */
+		}
+
+		@keyframes slideInFromBottom {
+			0% {
+				transform: translate(0, 100%);
+			}
+			100% {
+				transform: translate(0, 0);
+			}
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+			border-radius: 50%;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+			transition: all 0.2s ease-in-out;
+			animation: rotateIn 1s ease-in-out;
+			/* 添加旋转进入动画效果 */
+		}
+
+		img:hover {
+			transform: scale(1.1) rotate(360deg);
+			/* 添加缩放和旋转动画效果 */
+		}
+
+		@keyframes rotateIn {
+			0% {
+				opacity: 0;
+				transform: rotate(180deg);
+			}
+			100% {
+				opacity: 1;
+				transform: rotate(0);
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>感谢妈妈</h1>
+	<img src="https://pic2.imgdb.cn/item/6460bbba0d2dde57770593df.jpg" alt="妈妈的照片">
+	<!-- 添加图片 -->
+	<p>亲爱的妈妈，今天是母亲节，我想对您说一声：“谢谢！”谢谢您在我成长的过程中给予我的爱和关心，谢谢您为我做的一切，您是我生命中最重要的人。</p>
+	<!-- 添加段落 -->
+	<p>您是我的榜样，您的毅力和勤劳让我受益终身。我会永远记得您为我所做的一切。我爱您，妈妈！</p>
+</body>
+</html>
